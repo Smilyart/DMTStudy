@@ -1,0 +1,31 @@
+.aboutdmt {
+    padding-top: 130px;
+}
+
+.aboutdmt .aboutdmt__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutdmt .aboutdmt__info {
+    margin-left: 25px;
+}
+
+.aboutdmt .aboutdmt__title {
+    text-align: left;
+}
+
+.textmost {
+    margin-top: 20px;
+    color: #456064;
+}
+
+.dmtstudents {
+    max-width: 570px;
+    max-height: 500px;
+}
+
+.aboutdmt .aboutdmt__button {
+    margin-top: 35px;
+}

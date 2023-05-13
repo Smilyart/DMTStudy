@@ -1,0 +1,35 @@
+.redbluebutton {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #ff254c;
+    border: 2px solid #ff254c;
+    text-decoration: none;
+    transition: background-color 0.4s, color 0.4s;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.redbluebutton:hover {
+    background-color: #2f33f0;
+    color: #fff;
+}
+
+
+.whiteredbutton {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #ff254c;
+    background-color: #fff;
+    border: 2px solid #ff254c;
+    text-decoration: none;
+    transition: background-color 0.4s, color 0.4s;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.whiteredbutton:hover {
+    background-color: #ff254c;
+    color: #fff;
+}
