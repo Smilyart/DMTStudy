@@ -24,3 +24,30 @@ img {
     width: 100%;
     object-fit: cover;
 }
+
+.textmost {
+    color: #465064;
+}
+
+.textmost span {
+    color: #182DF4;
+    font-weight: 700;
+}
+
+.title_blue {
+    color: #182DF4;
+}
+
+.bgempty {
+    display: flex;
+    background: url('../../img/bgempty.svg') center center/cover no-repeat;
+    height: 115px;
+    margin-top: 40px;
+}
+
+.reversebgempty {
+    display: flex;
+    background: url('../../img/reversebgempty.svg') center center/cover no-repeat;
+    height: 115px;
+    margin-bottom: 60px;
+}

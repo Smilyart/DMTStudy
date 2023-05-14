@@ -1,0 +1,27 @@
+.courses {
+    padding: 60px 0 80px 0;
+    background: #f3f6fb url('../../img/courses_bg.svg') center center/cover no-repeat;
+}
+
+.courses .courses__wrapper {
+    display: flex;
+    padding: 0 25px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.courses .course__item {
+    padding: 40px 50px;
+    position: relative;
+    width: 32%;
+    background-color: #fff;
+}
+
+.courses .course__item .course__item-bg {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    height: 90%;
+    width: 90%;
+}

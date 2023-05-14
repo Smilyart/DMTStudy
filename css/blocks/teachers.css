@@ -1,0 +1,22 @@
+.teachers {
+    padding-bottom: 80px;
+    background: url('../../img/teachers_bg.svg') center center/cover no-repeat;
+}
+
+.teachers .teachers__wrapper {
+    display: flex;
+    padding: 0 25px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.teachers .teacher__item {
+    width: 23%;
+}
+
+.teacht_blue {
+    font-size: 18px;
+    font-weight: 400;
+    color: #182DF4;
+}

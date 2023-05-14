@@ -1,6 +1,6 @@
 .redbluebutton {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 25px;
     color: #fff;
     background-color: #ff254c;
     border: 2px solid #ff254c;
@@ -19,7 +19,7 @@
 
 .whiteredbutton {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 25px;
     color: #ff254c;
     background-color: #fff;
     border: 2px solid #ff254c;
@@ -32,4 +32,10 @@
 .whiteredbutton:hover {
     background-color: #ff254c;
     color: #fff;
+}
+
+.whiteredbutton-courses {
+    padding: 7px 14px;
+    font-size: 12.5px;
+    margin-top: 40px;
 }
