@@ -1,0 +1,28 @@
+.whywe {
+    padding: 0px 0 45px 0;
+    background: #f3f6fb url('../../img/whywe_bg.svg') center center/cover no-repeat;
+}
+
+.whywe .whywe__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.whywe .whywe__item {
+    margin-top: 20px;
+    padding: 25px;
+    width: 32%;
+    min-height: 276px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.whywe .whywe__logo {
+    height: 70px;
+    width: 70px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}

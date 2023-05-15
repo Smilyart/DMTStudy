@@ -1,0 +1,79 @@
+.events {
+    padding-bottom: 90px;
+}
+
+.events .events__subtitle {
+    font-size: 20px;
+    color: #465064;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.events .events__wrapper {
+    margin-top: 40px;
+}
+
+.events .events__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.events .item .item__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.events .item .item__wrapper, .item__subwrapper {
+    width: 26%;
+}
+
+.item .item__day {
+    font-size: 40px;
+    color: #FF254C;
+    margin-right: 10px;
+    font-weight: 700;
+}
+
+.item .item__date {
+    color: #465064;
+}
+
+.item .item__time {
+    font-size: 14px;
+}
+
+.item .item__title {
+    font-size: 18px;
+    color: #465064;
+}
+
+.item .item__type {
+    font-size: 14px;
+    color: #182df4;
+}
+
+.item .item__lector {
+    font-size: 18px;
+    color: #FF254C;
+}
+
+.item .item__role {
+    font-size: 14px;
+    color: #465064;
+}
+
+.events .item__button {
+    font-size: 15.5px;
+    padding: 12px 54px;
+}
+
+.events .whiteredbutton__events {
+    display: block;
+    padding: 8px 0;
+    width: 217px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}

@@ -51,3 +51,10 @@ img {
     height: 115px;
     margin-bottom: 60px;
 }
+
+.whitetitle {
+    font-size: 54px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
