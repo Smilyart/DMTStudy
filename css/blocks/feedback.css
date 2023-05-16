@@ -1,0 +1,69 @@
+.feedback {
+    padding: 100px 0;
+}
+
+.feedback .feedback__slider {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.feedback .feedback__item {
+    padding: 0 190px;
+    text-align: center;
+}
+
+.feedback .feedback__client {
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+
+.feedback .feedback__name {
+    font-size: 25px;
+    font-weight: 600;
+    color: #465064;
+    margin-top: 15px;
+}
+
+.feedback .feedback__type {
+    font-size: 14px;
+    color: #182df4;
+    margin-top: 15px;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+.slick-track {
+    display: flex;
+}
+
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    margin-top: -18px;
+    z-index: 10;
+    font-size: 0;
+    width: 25px;
+    height: 36px;
+    border: none;
+    cursor: pointer;
+}
+
+.slick-arrow:focus {
+    border: none;
+    outline: none;
+}
+
+.slick-prev {
+    left: 0;
+    background: url(../../icons/slick_left.jpg) 0 0 / 100% no-repeat;
+}
+.slick-next {
+    right: 0;
+    background: url(../../icons/slick_right.jpg) 0 0 / 100% no-repeat;
+}

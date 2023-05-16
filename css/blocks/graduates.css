@@ -1,0 +1,19 @@
+.graduates {
+    padding: 75px 0 90px 0;
+    background: linear-gradient(to left, rgba(255, 37, 76, 0.9), rgba(24, 45, 244, 0.9)), url('../../img/graduate_undertext.webp') center center/cover no-repeat;
+}
+
+.graduates .graduates__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.graduates .graduate__item {
+    padding: 15px;
+    width: 23%;
+    min-height: 175px;
+    background-color: #46506436;
+    margin-top: 30px;
+}
