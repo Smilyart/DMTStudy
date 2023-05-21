@@ -58,3 +58,19 @@ img {
     color: #fff;
     text-align: center;
 }
+
+.headerlink {
+    transition: transform .3s linear;
+}
+
+.headerlink:hover {
+    transform: scale(1.15);
+}
+
+.teachlink {
+    transition: transform .3s linear;
+}
+
+.teachlink:hover {
+    transform: scale(1.15);
+}

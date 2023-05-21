@@ -1,0 +1,235 @@
+@media (max-width: 1200px) { 
+    .container {
+        width: 960px;
+    }
+
+    .header .header__title {
+        font-size: 80px;
+    }
+
+    .header .header__cover {
+        width: 550px;
+        margin-top: 60px;
+    }
+    
+    .awards {
+        padding-top: 50px;
+    }
+    
+    .awards .awards_name {
+        font-size: 18px;
+    }
+
+    .awards .awards__buttons {
+        margin-top: 70px;
+    }
+
+    .dmtstudents {
+        width: 440px;
+        height: 385px;
+    }
+
+    .aboutdmt .aboutdmt__title {
+        font-size: 40px;
+    }
+
+    .textmost {
+        font-size: 16px;
+    }
+
+    .bgempty {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+    
+    .nav {
+        display: none;
+    }
+
+    .header {
+        padding-top: 90px;
+    }
+
+    .header .header__cover {
+        margin-top: 0;
+        width: 500px;
+    }
+
+    .awards {
+        padding-top: 40px;
+    }
+
+    .title {
+        font-size: 44px;
+    }
+
+    .awards .awards_desc {
+        font-size: 18px;
+    }
+    
+    .awards .awards_name {
+        font-size: 16px;
+    }
+
+    .awards .awards__buttons {
+        margin-top: 110px;
+    }
+
+    .dmtstudents {
+        width: 338px;
+        height: 295px;
+    }
+
+    .aboutdmt .aboutdmt__title {
+        font-size: 30px;
+    }
+
+    .textmost {
+        font-size: 14px;
+    }
+
+    .aboutdmt .aboutdmt__button {
+        margin-top: 15px;
+    }
+
+    .whiteredbutton {
+        font-size: 12px;
+        padding: 6px 13px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 540px;
+    }
+
+    .header .header__title {
+        font-size: 60px;
+    }
+
+    .title_desc {
+        font-size: 18px;
+    }
+
+    .header .header__cover {
+        width: 420px;
+        margin-top: 60px;
+    }
+
+    .awards {
+        padding-top: 40px;
+    }
+
+    .title {
+        font-size: 44px;
+    }
+
+    .awards .awards_desc {
+        font-size: 18px;
+    }
+
+    .awards .awards__wrapper {
+        flex-wrap: wrap;
+        margin-top: 0;
+    }
+
+    .awards .awards__item {
+        width: 47%;
+        margin-top: 45px;
+    }
+    
+    .awards .awards_name {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+
+    .awards .awards__buttons {
+        margin-top: 60px;
+    }
+
+    .aboutdmt {
+        padding-top: 80px;
+    }
+
+    .dmtstudents {
+        margin-top: 30px;
+    }
+
+    .aboutdmt .aboutdmt__wrapper {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+
+    
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 320px;
+        padding: 0 10px;
+    }
+
+    .header .header__title {
+        font-size: 40px;
+    }
+
+    .header .header__cover {
+        width: 80%;
+    }
+
+    .title_desc {
+        margin-top: 8px;
+    }
+
+    .awards {
+        padding-top: 0px;
+    }
+
+    .title {
+        font-size: 38px;
+    }
+
+    .awards .awards_desc {
+        font-size: 15px;
+    }
+
+    .awards .awards__wrapper {
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .awards .awards__buttons {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+
+    .awards .awards__buttons a {
+        margin-top: 15px
+    }
+
+    .awards .awards__item {
+        width: 95%;
+    }
+
+    .redbluebutton {
+        font-size: 12px;
+        padding: 8px 19px;
+        
+    }
+
+    .dmtstudents {
+        width: 275px;
+        height: 240px;
+    }
+
+    .bgempty {
+        margin-top: 0px;
+    }
+}
