@@ -11,17 +11,24 @@
     <header class="header">
         <div class="container">
             <nav class="nav">
-                <a href="#" class="header__logo"><img src="icons/dmtstud.png" alt="logo"></a>
+                <a href="#" class="header__logo burger__item"><img src="icons/dmtstud.png" alt="logo"></a>
                 <ul class="nav__list">
-                    <li><a href="#courses">Наші курси</a></li>
-                    <li><a href="#events">Наші заходи</a></li>
-                    <li><a href="#events">Про курси</a></li>
-                    <li><a href="#contacts">Контактні дані</a></li>
-                    <li><a href="https://www.facebook.com"><img src="icons/header_facebook.png" alt="facebook" class="headerlink"></a></li>
-                    <li><a href="https://www.instagram.com" target="_blank"><img src="icons/header_instagram.png" alt="instagram" class="headerlink"></a></li>
-                    <li><a href="https://www.youtube.com" target="_blank"><img src="icons/header_youtube.png" alt="youtube" class="headerlink"></a></li>
+                    <li class="burger__item"><a href="#courses">Наші курси</a></li>
+                    <li class="burger__item"><a href="#events">Наші заходи</a></li>
+                    <li class="burger__item"><a href="#events">Про курси</a></li>
+                    <li class="burger__item"><a href="#contacts">Контактні дані</a></li>
+                    <div class="social__wrapper">
+                        <li><a href="https://www.facebook.com"><img src="icons/header_facebook.png" alt="facebook" class="headerlink"></a></li>
+                        <li><a href="https://www.instagram.com" target="_blank"><img src="icons/header_instagram.png" alt="instagram" class="headerlink"></a></li>
+                        <li><a href="https://www.youtube.com" target="_blank"><img src="icons/header_youtube.png" alt="youtube" class="headerlink"></a></li>
+                    </div>
                 </ul>
             </nav>
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
             <div class="header__cover">
                 <h1 class="header__title">DMT Study</h1>
                 <p class="title_desc">Ми допомагаємо опанувати перспективну професію в сфері IT нашим студентам</p>
@@ -71,7 +78,7 @@
             </div>
         </section>
         <div class="bgempty"></div>
-        <!-- <section class="courses" id="courses">
+        <section class="courses" id="courses">
             <div class="container">
                 <h2 class="title">Наші курси</h2>
                 <div class="courses__wrapper">
@@ -101,8 +108,8 @@
                     </div>
                 </div>
             </div>
-        </section> -->
-        <!-- <section class="teachers" id="teachers">
+        </section>
+        <section class="teachers" id="teachers">
             <div class="reversebgempty"></div>
             <div class="container">
                 <h2 class="title">Наші викладачі</h2>
@@ -142,8 +149,8 @@
                 </div>
             </div>
         </section>
-        <div class="bgempty"><br></div> -->
-        <!-- <section class="whywe" id="whywe">
+        <div class="bgempty"><br></div>
+        <section class="whywe" id="whywe">
             <div class="container">
                 <h2 class="title">Чому обрати саме нас</h2>
                 <div class="whywe__wrapper">
@@ -179,8 +186,8 @@
                     </div>
                 </div>
             </div>
-        </section> -->
-        <!-- <section class="readyit">
+        </section>
+        <section class="readyit">
             <div class="container">
                 <div class="readyit__wrapper">
                     <h2 class="whitetitle">Готові розпочати свою кар'єру в IT?</h2>
@@ -189,8 +196,8 @@
                 </div>
             </div>
         </section>
-        <div class="reversebgempty"><br></div> -->
-        <!-- <section class="events" id="events">
+        <div class="reversebgempty"><br></div>
+        <section class="events" id="events">
             <div class="container">
                 <h2 class="title">Заходи</h2>
                 <p class="events__subtitle">Щотижня ми проводимо цікаві події з запрошеними спікерами.</p>
@@ -215,7 +222,7 @@
                     </div>
                     <div class="events__item item">
                         <div class="item__wrapper">
-                            <h2 class="item__day">04</h2>
+                            <h2 class="item__day item__day-fix">04</h2>
                             <div class="item__date">
                                 <p class="item__month">Червня</p>
                                 <p class="item__time">10:00 - 13:00</p>
@@ -252,8 +259,8 @@
                 </div>
                 <a href="#" class="whiteredbutton whiteredbutton__events">Показати всі заходи</a>
             </div>
-        </section> -->
-        <!-- <section class="graduates">
+        </section>
+        <section class="graduates">
             <div class="container">
                 <h2 class="whitetitle">Ось де працюють наші випускники зараз</h2>
                 <div class="graduates__wrapper">
@@ -283,8 +290,8 @@
                     </div>
                 </div>
             </div>
-        </section> -->
-        <!-- <section class="feedback">
+        </section>
+        <section class="feedback">
             <div class="container">
                 <h2 class="title">Відгуки клієнтів</h2>
                 <div class="feedback__slider">
@@ -309,9 +316,9 @@
                 </div>
             </div>
         </section>
-        <div class="bgempty"><br></div> -->
+        <div class="bgempty"><br></div>
     </main>
-    <!-- <footer class="footer" id="contacts">
+    <footer class="footer" id="contacts">
         <div class="container">
             <div class="footer__wrapper">
                 <div class="footer__item">
@@ -355,7 +362,7 @@
                 </div>
             </div>
         </div>
-    </footer> -->
+    </footer>
     <script
         src="https://code.jquery.com/jquery-3.6.4.min.js"
         integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="

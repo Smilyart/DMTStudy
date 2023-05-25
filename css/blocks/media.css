@@ -34,11 +34,57 @@
     }
 
     .textmost {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .bgempty {
         margin-top: 20px;
+    }
+
+    .courses .course__item {
+        font-size: 15px;
+        padding: 25px 15px;
+    }
+
+    .teachers .teachers__wrapper {
+        flex-wrap: wrap;
+        margin-top: 15px;
+    }
+
+    .teachers .teacher__item {
+        width: 48%;
+    }
+    
+    .teachers .teacht_blue {
+        font-size: 24px;
+    }
+
+    .teachers .teachimg {
+        margin-top: 25px;
+    }
+
+    .whywe .whywe__item {
+        width: 49%;
+    }
+
+    .slick-prev {
+        left: 30px
+    }
+
+    .footer .footer__item {
+        flex-wrap: wrap;
+    }
+
+    .footer .footer_item__wrapper {
+        width: 48%;
+    }
+
+    .footer .footer__fix {
+        margin-left: 0;
+    }
+
+    .teachlink {
+        margin: 0 10px -50px 0;
     }
 }
 
@@ -46,13 +92,53 @@
     .container {
         width: 720px;
     }
-    
-    .nav {
-        display: none;
-    }
 
     .header {
         padding-top: 90px;
+    }
+
+    .nav {
+        display: flex;
+        flex-wrap: wrap;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color:aquamarine;
+        top: 0;
+        left: -100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transition: left .3s ease-out;
+        z-index: 9;
+    }
+
+    .nav.active {
+        left: 0;
+    }
+
+    .nav .nav__list {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav .nav__list li {
+        margin-top: 20px;
+    }
+
+    .nav .nav__list a {
+        font-size: 20px;
+    }
+
+    .social__wrapper {
+        margin-top: 25px;
+    }
+
+    .burger {
+        display: block;
     }
 
     .header .header__cover {
@@ -90,7 +176,7 @@
     }
 
     .textmost {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .aboutdmt .aboutdmt__button {
@@ -99,7 +185,16 @@
 
     .whiteredbutton {
         font-size: 12px;
-        padding: 6px 13px;
+        padding: 12px 13px;
+    }
+
+    .courses .course__item {
+        width: 32.5%;
+        padding: 25px 10px;
+    }
+
+    .whitetitle {
+        font-size: 48px;
     }
 }
 
@@ -166,7 +261,78 @@
         justify-content: center;
     }
 
+    .courses .course__item {
+        font-size: 12px;
+        padding: 25px 15px;
+    }
+
+    .textmost {
+        font-size: 12px;
+    }
     
+    .courses .courses__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .courses .course__item {
+        width: 46%;
+        margin: 15px 0 0 15px;
+    }
+
+    .whywe .whywe__item {
+        width: 100%;
+    }
+
+    .whitetitle {
+        font-size: 41px;
+    }
+
+    .readyit .title_desc__readyit {
+        font-size: 16px;
+    }
+
+    .events {
+        padding-bottom: 50px;
+    }
+
+    .events .events__item {
+        flex-wrap: wrap;
+    }
+
+    .item .item__title {
+        font-size: 16px;
+    }
+
+    .item .item__day {
+        margin-right: 0;
+        padding-right: 15px;
+        font-size: 40px;
+    }
+
+    .item .item__day-fix {
+        font-size: 37px;
+    }
+
+    .events .item__button {
+        padding: 5px 45px;
+        font-size: 14px;
+        margin: 20px 0 0 180px;
+    }
+
+    .graduates .graduate__item {
+        width: 48%;
+    }
+
+    .feedback {
+        padding-bottom: 45px;
+    }
+
+    .feedback .feedback__item {
+        padding: 0 60px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -231,5 +397,95 @@
 
     .bgempty {
         margin-top: 0px;
+    }
+
+    .courses .courses__wrapper {
+        margin-top: 10px;
+    }
+
+    .courses .course__item {
+        width: 100%;
+        margin: 15px 0 0 15px;
+    }
+
+    .teachers {
+        padding-bottom: 30px;
+    }
+
+    .teachers .teacher__item {
+        width: 100%;
+    }
+
+    .whitetitle {
+        font-size: 28px;
+    }
+
+    .readyit {
+        padding-bottom: 60px;
+    }
+
+    .readyit .title_desc__readyit {
+        font-size: 13px;
+    }
+
+    .readyit .redbluebutton__readyit {
+        width: 160px;
+        padding: 9px 0;
+    }
+
+    .events .item__wrapper {
+        flex-wrap: wrap;
+    }
+
+    .events .events__item {
+        width: 100%;
+    }
+
+    .events .item__day {
+        font-size: 32px;
+    }
+
+    .events .item__month {
+        font-size: 14px;
+    }
+
+    .events .item__time {
+        font-size: 12px;
+    }
+
+    .item .item__title {
+        font-size: 14px;
+    }
+
+    .item .item__type {
+        font-size: 12px;
+    }
+
+    .item .item__lector {
+        font-size: 15px;
+    }
+
+    .item .item__role {
+        font-size: 12px;
+    }
+
+    .events .item__button {
+        font-size: 12px;
+        padding: 3px 35px;
+        margin-left: 100px;
+        margin-bottom: 5px;
+    }
+
+    .graduates {
+        padding-bottom: 70px;
+    }
+
+    .graduates .graduate__item {
+        width: 100%;
+    }
+
+    .feedback {
+        padding-top: 50px;
+        padding-bottom: 25px;
     }
 }

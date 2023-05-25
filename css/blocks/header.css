@@ -23,6 +23,10 @@
     color: #fff
 }
 
+.social__wrapper {
+    display: flex;
+}
+
 .headerlink {
     width: 35px;
     height: 35px;
@@ -32,6 +36,7 @@
     background: url('../../img/header_bg.jpg') center 80%/cover no-repeat;
     padding-bottom: 300px;
     height: 100vh;
+    position: relative;
 }
 
 .header .header__cover {
@@ -58,3 +63,36 @@
     margin-top: 25px;
 }
 
+.burger {
+    display: none;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.burger span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background-color: black;
+    z-index: 10;
+    transition: transform .3s ease-out;
+}
+
+.burger :nth-child(2) {
+    margin: 5px 0;
+}
+
+.burger.active :nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.burger.active :nth-child(2) {
+    opacity: 0;
+}
+
+.burger.active :nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
